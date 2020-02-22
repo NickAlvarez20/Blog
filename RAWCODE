@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Blog</title>
+        <style> 
+        body {
+            background-color:rgb(125, 216, 255);
+        }
+        h1 {
+            color: rgb(255, 255, 255);
+            font-family: fantasy;
+            font-size: 58px;
+        }
+        h3 {
+            color: rgb(238, 255, 0);
+            font-size: 35px;
+        }
+        li {
+            color: rgb(255, 255, 255);
+            font-size: 19px;
+        }
+    
+        #paragraph {
+                color: rgb(255, 51, 0);
+                font-family: sans-serif;
+                font-size: 14px;
+                font: "Arial";
+                font-weight: 90;
+            }
+        #paragraphtwo {
+            color: rgb(5, 21, 252);
+            font-family: serif;
+            font-size: 40px;
+        }
+        #paragraphthree {
+                color: rgb(225, 245, 0);
+                font-family: fantasy;
+                font-size: 20px;
+            }
+        #paragraphfour {
+            color: rgb(9, 240, 236);
+            font-family: monotype;
+            font-size: 30px;
+        
+        }
+        .text {
+            color:rgb(252, 252, 252);
+            font-family: arial;
+            font-size: 18px;
+        }
+        h6 {
+            color:rgb(250, 10, 10);
+            font-size: 13px;
+        }
+            
+            
+            
+        </style>
+    </head>
+    <body>
+        
+        <h1>BobTheBuilder's blog</h1>
+
+        <h3 id="contents">Contents</h3>
+        <ul>
+            <li> <a href="#paragraph"> First post!</a></li>
+            <li> <a href ="#paragraphtwo">Second post!</a></li>
+            <li> <a href ="#paragraphthree">Third post!</a></li>
+            <li> <a href="#paragraphfour">Fourth post!</a></li>
+        </ul>
+        
+        <h2 id="paragraph">First post</h2>
+        <h6>02/21/2020</h6>
+    
+        <p class="text">I have come a long way in my coding journey. Learning the whole idea and concepts as well as being able to apply some of the lessons learned to projects I have been helped create. Nonetheless, I have done well for my learning as a whole.</p>
+        
+        <h2 id="paragraphtwo">Second post</h2>
+        <h6>02/21/2020</h6>
+    
+        <p class="text">This new project is very helpful developing an idea of how to implement each of the syntax throughout the blog project. I am having a good time developing this website and being able to implement special things within it to make it more user-friendly. </p>
+         <h2 id="paragraphthree">Third post</h2>
+        <h6>02/21/2020</h6>
+    
+        <p class="text">For the third post I am testing to see the syntax difference comparison between id and class identifiers used between paragraphs to add in CSS effects. </p>
+        
+        <h2 id="paragraphfour">Fourth post</h2>
+        <h6>02/21/2020</h6>
+    
+        <p class="text">I have understood the difference between id identifiers as well as being able to implement classes into the paragraph to style for CSS. For the id we use the hashtag followed by id. For the other we use class followed by using the .name command. .name = .class-name-variable-assigned. We have also internally linked everything, although it could be more intricate it shows a basic understanding for now. The CSS has been used to style it and there are specific fonts, color, and sizes for almost each section.  </p>
+        
+        <p><a href="#contents"> Back to Contents</a> </p>
+        
+        
+        
+    </body>
+</html>
