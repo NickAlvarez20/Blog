@@ -1,4 +1,4 @@
-# BobTheBuilder's Project
+# BobTheBuilder's Blog Project
 ## Table of Contents
 - [Project Name](#project-name)
 - [About](#about)
